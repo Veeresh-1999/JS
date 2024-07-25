@@ -42,3 +42,33 @@ const myFunction = function(){
 //check type of
 console.log(typeof heros);       // -> object
 console.log(typeof myFunction);  // -> function
+
+/*------------------Memory management----------------------*/
+// Stach (Primitive), Heap(non-primitive)
+
+//primitive
+let javaScript = "hiteshchoudhary.com"
+let javaScriptOther = javaScript
+
+console.log(javaScriptOther)
+javaScriptOther = "chaiourcode.com"
+
+
+console.log(javaScript);
+
+
+
+//Non - primitive
+
+let userOne =
+{
+    userEmail:"Userone@google.com",
+    course : "JS",
+}
+
+let userTwo = userOne
+
+userTwo.userEmail = "userTwo@google.com"
+
+console.log(userOne.userEmail);
+console.log(userTwo.userEmail);
