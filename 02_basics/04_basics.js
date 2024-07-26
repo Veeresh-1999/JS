@@ -79,3 +79,17 @@ console.log(Object.entries(instaUserOne)); // Array of each key value pair : [ [
 
 //checking is value exits or not
 console.log(instaUserOne.hasOwnProperty('id')); // true hasOwnProperty : it will check the x`keys
+
+
+// Ojecte - De -Structuring
+
+const course = {
+    courseName : "JS",
+    instructor : "Hitesh",
+    price : 999
+}
+
+// de structuring the object
+const {instructor : ins} = course
+
+console.log(ins);
