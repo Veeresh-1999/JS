@@ -3,9 +3,9 @@ const dc_heros = ["superman","flash" ,"batman"]
 const lang = ["c","c++","java"]
 
 //push
-// marvel_heros.push(dc_heros)      
-// console.log(marvel_heros);        // ['thor','IronMan','SpiderMan',['superman','flash','batman']]
-// console.log(marvel_heros[3][0]);  // batman
+/marvel_heros.push(dc_heros)      
+console.log(marvel_heros);        // ['thor','IronMan','SpiderMan',['superman','flash','batman']]
+console.log(marvel_heros[3][0]);  // batman
 
 //concat
 // const allHeros = marvel_heros.concat(dc_heros) 
