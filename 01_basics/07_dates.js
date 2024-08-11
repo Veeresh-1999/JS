@@ -8,7 +8,7 @@ let myDate = new Date();
 // console.log(myDate.toLocaleDateString());
 
 //user date
-let myCurrentDate = new Date(2023,0,23,4,5,56)
+let myCurrentDate = new Date(2023,1,23,4,5,56)
 // console.log(myCurrentDate.toDateString());
 // console.log(myCurrentDate.toLocaleString());
 
