@@ -1,7 +1,7 @@
 /* REMOVE THE COMMENT AND TRY */
 // let score = "true"
 // console.log(typeof(score));
-// let valueInNumber = Number(score)
+// let valueInNumber = String(score)
 // console.log(score);
 // console.log(typeof(valueInNumber));
 // console.log(valueInNumber);
@@ -16,7 +16,7 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 /* REMOVE THE COMMENT AND TRY */
-// let isLoggedIn = ""
+// let isLoggedIn = "0"
 
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(typeof(booleanIsLoggedIn));
@@ -31,8 +31,8 @@
 
 /*-------------------------------------------------------------------------------------------------*/
 /* REMOVE THE COMMENT AND TRY */
-let someNumber = true
-let stringNumber = String(someNumber)
+// let someNumber = true
+// let stringNumber = Number(someNumber)
 // console.log(stringNumber);
 // console.log(typeof(stringNumber));
 
